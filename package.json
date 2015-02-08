@@ -1,0 +1,42 @@
+{
+  "name": "kinex",
+  "description": "Extremely simple API wrapper for gulp and other fullstack build tools",
+  "version": "0.1.0",
+  "homepage": "https://github.com/joelcoxokc/kinex",
+  "author": {
+    "name": "joelcoxokc",
+    "email": "joelcox@hisimagination.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joelcoxokc/kinex.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joelcoxokc/kinex/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "bin":{
+    "./bin/kinex.js"
+  },
+  "main": "lib/kinex",
+  "engines": {
+      "node": ">=0.10.26",
+      "npm": ">=1.4.3"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "gulp": "~3.8.6",
+    "gulp-mocha": "~0.5"
+
+  },
+  "keywords": []
+}
